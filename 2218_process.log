@@ -5,3 +5,8 @@
 [$(date +"%Y-%m-%d %H:%M:%S")] [COMPLETED] 本地测试: 配置、构建和测试 MCP 服务器
 [$(date +"%Y-%m-%d %H:%M:%S")] [INFO] 本地测试成功，获取到 1 个工具: get_google_profile
 [$(date +"%Y-%m-%d %H:%M:%S")] [INFO] 测试命令: uv run python -c "import server; import sys; sys.exit(server.main([--transport, stdio]))"
+[$(date +"%Y-%m-%d %H:%M:%S")] [COMPLETED] 推送分支: 创建并推送到 iflow 分支
+[$(date +"%Y-%m-%d %H:%M:%S")] [INFO] 分支 iflow 已成功推送到远程仓库
+[$(date +"%Y-%m-%d %H:%M:%S")] [COMPLETED] 上传官方仓库: 发布到 PyPI
+[$(date +"%Y-%m-%d %H:%M:%S")] [INFO] 包名: iflow-mcp_ksankaran_mcp-b2c-oauth
+[$(date +"%Y-%m-%d %H:%M:%S")] [INFO] 版本: 0.1.0

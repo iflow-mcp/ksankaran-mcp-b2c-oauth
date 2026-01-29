@@ -1,0 +1,7 @@
+include README.md
+include pyproject.toml
+include *.py
+recursive-include auth *.py
+recursive-include utils *.py
+include .env.example
+include LICENSE

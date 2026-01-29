@@ -12,4 +12,4 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-b2c-oauth = "server:main"
+mcp-b2c-oauth = "mcp_b2c_oauth.server:main"

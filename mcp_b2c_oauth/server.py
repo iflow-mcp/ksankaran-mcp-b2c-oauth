@@ -17,8 +17,8 @@ from starlette.responses import JSONResponse, RedirectResponse, Response
 from mcp.server.auth.middleware.auth_context import get_access_token
 from mcp.server.auth.settings import AuthSettings, ClientRegistrationOptions
 from mcp.server.fastmcp.server import FastMCP
-from auth.google_oauth_provider import GoogleOAuthProvider
-from utils.server_settings import ServerSettings
+from .auth.google_oauth_provider import GoogleOAuthProvider
+from .utils.server_settings import ServerSettings
 
 logger = logging.getLogger(__name__)
 

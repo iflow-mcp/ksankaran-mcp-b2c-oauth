@@ -17,7 +17,7 @@ from mcp.server.auth.provider import (
 
 from mcp.shared._httpx_utils import create_mcp_http_client
 from mcp.shared.auth import OAuthClientInformationFull, OAuthToken
-from utils.server_settings import ServerSettings
+from ..utils.server_settings import ServerSettings
 
 class GoogleOAuthProvider(OAuthAuthorizationServerProvider):
     """Simple Google OAuth provider with essential functionality."""
